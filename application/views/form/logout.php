@@ -1,0 +1,1 @@
+<a class="btn btn-primary" href="<?= base_url(); ?>login/logout">Sair</a>
