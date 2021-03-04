@@ -1,23 +1,17 @@
-# Solução WEB
+# Solução em forma de sistema WEB
+
 Aplicação web para agendamento e gerenciamento de horários e de divulgação de serviços.
 
-################################################################################################
-
-    ++++++++++++++++++++++++++++++++++++++++++++++++++++
-    +      GRUPO: 7                                                                                        +
-    +      EMPRESA: CUBO                                                                         +
-    +      MEMBROS:                                                                                     +
-    +      Samela Barbosa Claudino - 180026-4                                        +
-    +      Shantal de Morais Mantovani - 180007-8                                    +
-    +      Victor Pedro de Sousa - 180010-8                                              +
-    ++++++++++++++++++++++++++++++++++++++++++++++++++++
+    -- Ord. Apresentação: 7                                                                                        
+    --- EMPRESA: CUBO                                                                                 
+    + Samela Barbosa Claudino (180026-4)                                       
+    + Shantal de Morais Mantovani (180007-8)                                   
+    + Victor Pedro de Sousa (180010-8)                                              
 
 SISTEMA SIMPLES DE CADASTRO E LOGIN DE USUÁRIOS EM MULTI-NÍVEL
 E CADASTRO DE EVENTOS COM FULLCALENDAR.
 
 Para logar clique no botão "Login" da navbar.
-
-################################################################################################
 
 O administrador tem acesso ao dashboard no sistema, nele o usuário pode verificar
 qual é o método mais solicitado e qual foi o último registro inserido no BD.
@@ -25,13 +19,10 @@ Além de checar quais são os próximos horários reservados e os atendimentos j
 Tem acesso também a uma área onde pode adicionar novos métodos a página inicial do sistema,
 e por fim temos uma lista de usuários cadastrados no sistema.
 
-################################################################################################
+> O sistema de login foi criado com uma biblioteca especifica para o Codeigniter chamada Ion_Auth.
 
-O sistema de login foi criado com uma biblioteca especifica para o Codeigniter chamada Ion_Auth.
+#### Configuração
 
-################################################################################################
-
-Ajustes a serem feitos:
     application/config/config.php
         --> Mudar a URL base
     
@@ -48,9 +39,7 @@ Ajustes a serem feitos:
     application/views/extra/reserva.php
         --> Mudar as configurações da conexão mysqli - Linha 3
 
-################################################################################################
-
-    --------------------- OBSERVAÇÕES ---------------------
+## OBSERVAÇÕES 
 
 O calendário foi uma funcionalidade extremamente dificil de se concluir, e ainda mais, foi feita
 de maneira errada. Fizemos com base em tutoriais e na biblioteca fullcalendar e mesmo assim
@@ -72,4 +61,5 @@ sido usadas para o envio de emails e encurtar o caminho de comunicação entre o
 a impressão da ficha de anamnese ficou simples demais e o sistema de depoimentos poderia ser melhor elaborado,
 com a adição de uma área de rating do serviço. Analisar o upload e uso de fotos de perfil.
 
-Esperamos melhorar muito o sistema com o passar do tempo, sobretudo os defeitos citados acima.
+Esperamos melhorar muito o sistema com o passar do tempo, sobretudo o desenvolvimento das funcionalidades
+necessárias.
