@@ -2,11 +2,11 @@
 
 Aplicação web para agendamento e gerenciamento de horários e de divulgação de serviços.
 
-    -- Ord. Apresentação: 7                                                                                        
-    --- EMPRESA: CUBO                                                                                 
-    + Samela Barbosa Claudino (180026-4)                                       
-    + Shantal de Morais Mantovani (180007-8)                                   
-    + Victor Pedro de Sousa (180010-8)                                              
+-- Ord. Apresentação: 7
+--- EMPRESA: CUBO
++ Samela Barbosa Claudino (180026-4)
++ Shantal de Morais Mantovani (180007-8)
++ Victor Pedro de Sousa (180010-8)
 
 SISTEMA SIMPLES DE CADASTRO E LOGIN DE USUÁRIOS EM MULTI-NÍVEL
 E CADASTRO DE EVENTOS COM FULLCALENDAR.
